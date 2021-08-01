@@ -3,9 +3,23 @@
 typedef long long ll;
 using namespace std;
 
+int max(int a, int b, int c) {
+    int max = INT_MIN:
+    if (a>b) {
+        if(a>c) max = a; 
+        else max = c;
+    } else {
+        if (b>c) max = b;
+        else max = c;
+    }
+    return max;
+}
+
 bool checkPythagorean(int a, int b, int c) {
     bool isPythagorean = false;
+    int max = 0;
     
+    if()
     return isPythagorean;
 }
 
