@@ -3,8 +3,8 @@
 typedef long long ll;
 using namespace std;
 
-int max(int a, int b, int c) {
-    int max = INT_MIN:
+int findMax(int a, int b, int c) {
+    int max = INT_MIN;
     if (a>b) {
         if(a>c) max = a; 
         else max = c;
@@ -17,9 +17,8 @@ int max(int a, int b, int c) {
 
 bool checkPythagorean(int a, int b, int c) {
     bool isPythagorean = false;
-    int max = 0;
-    
-    if()
+    int max = findMax(a, b, c);
+    cout<<max;
     return isPythagorean;
 }
 
