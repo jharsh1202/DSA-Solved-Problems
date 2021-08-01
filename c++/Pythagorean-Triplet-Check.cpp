@@ -23,5 +23,5 @@ bool checkPythagorean(int a, int b, int c) {
 }
 
 int main() {
-    cout << checkPythagorean(2, 4, 5);
+    cout << checkPythagorean(6, 3, 4);
 }
