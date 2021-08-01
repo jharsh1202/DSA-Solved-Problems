@@ -11,8 +11,7 @@ int findMax(int a, int b, int c) {
 
 bool checkPythagorean(int a, int b, int c) {
     int max = findMax(a, b, c);
-    if(a==max) swap(a,c);
-    else if(b==max) swap(b,c);
+    if(a==max) swap(a,c); if(b==max) swap(b,c);
     return a*a+b*b==c*c;
 }
 
