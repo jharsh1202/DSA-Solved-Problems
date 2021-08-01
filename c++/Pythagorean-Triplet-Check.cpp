@@ -5,7 +5,7 @@ using namespace std;
 
 int findMax(int a, int b, int c) {
     int max = INT_MIN;
-    (a>b) ? ((a>c) ? max = a : max = c) : ((b>c) ? max = b : max = c);
+    (a>b) ? (a>c) ? max = a : max = c : (b>c) ? max = b : max = c;
     return max;
 }
 
