@@ -285,8 +285,8 @@ Pull requests are welcome. For major changes, please open an issue first to disc
 
 ## Author
 
-👤 **Ankit Sharma**
+👤 **Harshit Jain**
 
  ✉️ *nkits9@gmail.com*
- - Linkedin: [@nkits9](https://www.linkedin.com/in/nkits9/)
- - Github: [@nkits9](https://github.com/nkits9)
+ - Linkedin: [@nkits9](https://www.linkedin.com/in/harshit1202/)
+ - Github: [@nkits9](http://github.com/jharsh1202)
