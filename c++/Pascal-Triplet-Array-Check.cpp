@@ -19,11 +19,14 @@ int findMax(int a, int b, int c) {
 
 
 bool checkPythagoreanTriplet(vector<int> &v) {
+    int coun=0;
     bool pythagoreanTripletExist = false;
     sort(v.begin(), v.end(), greater<int>());
     for (int i = 0; i < v.size()-2; i++) {
-        for (int j = i+1; j < v.size() ; j++) { //&& v[i]>v[j]
-            for (int k = j+1; k < v.size(); k++) { // && v[j]>v[k]
+        for (int j = i+1; j < v.size() && v[i]>v[j]; j++) { 
+            for (int k = j+1; k < v.size() && v[j]>v[k]; k++) { 
+                cout<<v[i]<<" "<<v[j]<<" "<<v[k]<<" "<<endl;
+                coun++;
                 if(checkPythagorean(v[i], v[j], v[j+1])) {
                     pythagoreanTripletExist = true;
                     cout<<v[i]<<" "<<v[j]<<" "<<v[k]<<" "<<endl;
@@ -36,11 +39,12 @@ bool checkPythagoreanTriplet(vector<int> &v) {
     //         if(checkPythagorean(v[i], v[j], v[j+1])) {pythagoreanTripletExist = true;
     //         cout << i<< j<<j+1 <<"\n";}
     //     } 
+    cout<<"coun: "<<coun<< "\n" ;
     return pythagoreanTripletExist;
 }
 
 int main() {
-    int arr[] = {1, 5, 6, 2, 4, 4, 8, 9, 15, 16, 17}; 
+    int arr[] = {1, 5, 6, 6, 3, 4}; 
     vector<int> v;
     for(int i=0; i<sizeof arr/sizeof (arr[0]); i++) v.push_back(arr[i]);
     cout<<checkPythagoreanTriplet(v)<<"\n";
@@ -48,5 +52,6 @@ int main() {
 }
 
 
-//[2, 3, 4, 5, 6]
+
+
 
