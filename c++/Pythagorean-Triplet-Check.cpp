@@ -6,11 +6,9 @@ using namespace std;
 int findMax(int a, int b, int c) {
     int max = INT_MIN;
     if (a>b) {
-        if(a>c) max = a; 
-        else max = c;
+        (a>c) ? max = a : max = c;
     } else {
-        if (b>c) max = b;
-        else max = c;
+        (b>c) ? max = b : max = c;
     }
     return max;
 }
