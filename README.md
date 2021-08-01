@@ -24,6 +24,21 @@ The code is merely a snippet (as solved on GFG) & hence is not executable in a c
 * [Dynamic Programming](https://github.com/nkits9/GeeksForGeeks-Solved-Problems#Dynamic-Programming)
 * [Bit Magic](https://github.com/nkits9/GeeksForGeeks-Solved-Problems#Bit-Magic)
 
+## General C++ Solutions
+|  #  | Title        |  Solution     |  Time           | Space           | Difficulty    | Tag          |
+|-----|---------------- | --------------- | --------------- | --------------- | ------------- |--------------|
+1| [Count Primes with Sieve of Eratosthenes](https://leetcode.com/problems/count-primes/) |   [Solution]() |  |  | Easy* | |
+2| [Largest prime factor with Sieve of Eratosthenes](https://practice.geeksforgeeks.org/problems/largest-prime-factor2601/1#) |   [Solution](https://practice.geeksforgeeks.org/viewSol.php?subId=d8699d97dc058d35aa1dc7d11dd65d3c&pid=703958&user=harshitjain11) |  |  | Medium* | |
+3| [Pascal Triangle Row](https://leetcode.com/problems/pascals-triangle-ii) |   [Solution](https://leetcode.com/submissions/detail/530904040/) |  |  | Easy | |
+4| [Pascal Triangle Row With Combinations](https://leetcode.com/problems/pascals-triangle-ii) |   [Solution](https://leetcode.com/submissions/detail/531052262/) |  |  | Easy/M* | |
+5| [Missing Number with Sum of N Nums](https://leetcode.com/problems/missing-number/submissions/) |   [Solution](https://leetcode.com/submissions/detail/531067018/) |  |  | Easy | 
+|
+
+
+
+
+
+
 ## Array
 |  #  | Title        |  Solution     |  Time           | Space           | Difficulty    | Tag          |
 |-----|---------------- | --------------- | --------------- | --------------- | ------------- |--------------|
