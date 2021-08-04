@@ -21,7 +21,7 @@ string addBinary(string a, string b) {
 
 int main() {
 	string a = "101", b="011";
-	cout << addBinary(a, b) << endl;
+	cout << addBinary(a, b) << endl<<INT_MAX;
     return 0;
 }
 
