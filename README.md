@@ -35,6 +35,10 @@ The code is merely a snippet (as solved on GFG) & hence is not executable in a c
 6| [Pythagorean Triplet in Array](https://practice.geeksforgeeks.org/problems/pythagorean-triplet3018/1#) |   [Solution]() |  |  | Easy | |
 7| [Pythagorean Triplet in Array Optimized](https://practice.geeksforgeeks.org/problems/pythagorean-triplet3018/1#) |   [Solution](https://practice.geeksforgeeks.org/viewSol.php?subId=c807667804f83e91370c8f1016767c20&pid=702805&user=harshitjain11) |  |  | Easy* | |
 8| [Binary Numbers Addition]() |   [Solution]() |  |  |Easy* | |
+9| [Array-Search-Algorithms]() |   [Solution]() |  |  |Easy* | |
+10| [Array-Sort-Algorithms]() |   [Solution]() |  |  |Easy* | |
+11| [Sum-of-SubArrays]() |   [Solution]() |  |  |Easy* | |
+
 
 
 
