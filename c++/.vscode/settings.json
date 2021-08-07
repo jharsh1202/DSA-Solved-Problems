@@ -9,6 +9,7 @@
         "string": "cpp",
         "type_traits": "cpp",
         "ciso646": "cpp",
-        "__split_buffer": "cpp"
+        "__split_buffer": "cpp",
+        "map": "cpp"
     }
 }

@@ -38,8 +38,7 @@ The code is merely a snippet (as solved on GFG) & hence is not executable in a c
 9| [Array-Search-Algorithms]() |   [Solution]() |  |  |Easy* | |
 10| [Array-Sort-Algorithms]() |   [Solution]() |  |  |Easy* | |
 11| [Sum-of-SubArrays]() |   [Solution]() |  |  |Easy* | |
-
-
+12| [Sum Of SubArray Equals K](https://leetcode.com/problems/subarray-sum-equals-k) |   [Solution](https://leetcode.com/submissions/detail/534648038/) |  |  |Medium* | |
 
 
 
@@ -293,6 +292,6 @@ Pull requests are welcome. For major changes, please open an issue first to disc
 
 👤 **Harshit Jain**
 
- ✉️ *nkits9@gmail.com*
- - Linkedin: [@nkits9](https://www.linkedin.com/in/harshit1202/)
- - Github: [@nkits9](http://github.com/jharsh1202)
+ ✉️ *harshit120299@gmail.com*
+ - Linkedin: [@harshit1202](https://www.linkedin.com/in/harshit1202/)
+ - Github: [@jharsh1202](http://github.com/jharsh1202)
