@@ -4,15 +4,18 @@
 using namespace std;
 
 int findElementsToRemove(vector<int> a, int m) {
-    int count = 0; map<int, int> mp;
+    int count = 0; map<int, int> mp; vector<int> v;
     for(int x=0; x<a.size(); x++) {
         mp[a[x]]++;
     }
     for (map<int, int>::iterator itr = mp.begin(); itr != mp.end(); ++itr) {
-        // cout << '\t' << itr->first
-        //      << '\t' << itr->second << '\n';
-        
+        v.push_back(itr->second);
     }
+    sort(v.begin(), v.end(), greater<int>());
+    for (int i = 0; i < count; i++) {
+        if(v[i]<=m) count+=v[i]-m;
+    }
+    
     return count;
 }
 
