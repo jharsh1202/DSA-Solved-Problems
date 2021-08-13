@@ -3,9 +3,7 @@ using namespace std;
 
 int sumOfAllSubArrays(int arr[], int n) {
     int sum = 0;
-    for(int i=0; i<n; i++) {
-        sum += arr[i]*(n-i)*(i+1);
-    }
+    for(int i=0; i<n; i++) sum += arr[i]*(n-i)*(i+1);
     return sum;
 }
 
