@@ -1,3 +1,4 @@
+//Amazon First Round question
 #include <iostream>
 #include<vector>
 #include<map>
@@ -15,7 +16,6 @@ int findElementsToRemove(vector<int> a, int m) {
     for (int i = 0; i < count; i++) {
         if(v[i]<=m) count+=v[i]-m;
     }
-    
     return count;
 }
 
