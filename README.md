@@ -41,6 +41,7 @@ The code is merely a snippet (as solved on GFG) & hence is not executable in a c
 12| [Sum Of SubArray Equals K](https://leetcode.com/problems/subarray-sum-equals-k) |   [Solution](https://leetcode.com/submissions/detail/534648038/) |  |  |Medium* | |
 13| [Sum Of All SubArrays](https://practice.geeksforgeeks.org/problems/sum-of-subarrays2229/1#) |   [Solution](https://practice.geeksforgeeks.org/viewSol.php?subId=bea91de3dc94e9e77f809b3a89e8227a&pid=702706&user=harshitjain11) |  |  |Medium* | |
 14| [Longest Arithmetic Progession Subarray Length](https://codingcompetitions.withgoogle.com/kickstart/round/000000000019ff47/00000000003bf4ed#problem) |   [Solution]() |  |  |Easy* | |
+15| [Record Breaker](https://codingcompetitions.withgoogle.com/kickstart/round/000000000019ff08/0000000000387171) |   [Solution]() |  |  |Easy* | |
 
 
 
