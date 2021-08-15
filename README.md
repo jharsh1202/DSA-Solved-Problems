@@ -38,10 +38,11 @@ The code is merely a snippet (as solved on GFG) & hence is not executable in a c
 9| [Array-Search-Algorithms]() |   [Solution]() |  |  |Easy* | |
 10| [Array-Sort-Algorithms]() |   [Solution]() |  |  |Easy* | |
 11| [Sum-of-SubArrays]() |   [Solution]() |  |  |Easy* | |
-12| [Sum Of SubArray Equals K](https://leetcode.com/problems/subarray-sum-equals-k) |   [Solution](https://leetcode.com/submissions/detail/534648038/) |  |  |Medium* | |
+12| [Sum Of SubArray Equals K Count](https://leetcode.com/problems/subarray-sum-equals-k) |   [Solution](https://leetcode.com/submissions/detail/534648038/) |  |  |Medium* | |
 13| [Sum Of All SubArrays](https://practice.geeksforgeeks.org/problems/sum-of-subarrays2229/1#) |   [Solution](https://practice.geeksforgeeks.org/viewSol.php?subId=bea91de3dc94e9e77f809b3a89e8227a&pid=702706&user=harshitjain11) |  |  |Medium* | |
 14| [Longest Arithmetic Progession Subarray Length](https://codingcompetitions.withgoogle.com/kickstart/round/000000000019ff47/00000000003bf4ed#problem) |   [Solution]() |  |  |Easy* | |
 15| [Record Breaker](https://codingcompetitions.withgoogle.com/kickstart/round/000000000019ff08/0000000000387171) |   [Solution]() |  |  |Easy* | |
+16| [First Repeating Element](https://practice.geeksforgeeks.org/problems/first-repeating-element4018/1#) |   [Solution](https://practice.geeksforgeeks.org/viewSol.php?subId=137fbe921b6b0f1bd614edaeea745e52&pid=701716&user=harshitjain11) |  |  |Easy/M* | |
 
 
 

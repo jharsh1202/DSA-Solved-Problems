@@ -1,16 +1,22 @@
 #include <iostream>
 #include <vector>
 #include <map>
+#include <set>
 using namespace std;
 
-int getFirstRepeatingElement(vector<int> v) {
-    int element=INT_MAX;
-    map<int, int> mp;
-    for(int i=v.size()-1; i>=0; i--) {
-        mp[v[i]]++;
-        if(mp[v[i]]>1) { if(i<element) element = i; }
+int getFirstRepeatingElement(vector<int> arr) {
+    int min = -1;
+    int n = sizeof arr/sizeof arr[0];
+    
+    set<int> myset;
+ 
+    for (int i = n - 1; i >= 0; i--) {
+        if (myset.find(arr[i]) != myset.end())
+            min = i;
+        else myset.insert(arr[i]);
     }
-    return element;
+    if (min != -1) return arr[min];
+    return -1;
 }
 
 int main() {
