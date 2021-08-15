@@ -4,6 +4,26 @@
 #include<map>
 using namespace std;
 
+//0(n)
+vector<int> subarraySumOptimized(vector<int>& nums, int k) {
+    vector<int> vec;
+    
+    return vec;
+}
+
+//0(n^2)
+int subarraySum(vector<int>& nums, int k) {
+    int  res=0, sum;
+    for(int i=0; i<nums.size(); i++) {
+        sum=0;
+        for(int j=i; j<nums.size(); j++) {
+            sum+=nums[j];
+            if(sum==k) res++;
+        }
+    } return res;
+}
+
+//0(n^2) //T 0(n) //S 0(n) 
 int subarraySum(vector<int>& nums, int k) {    
     map<int,int>mp; mp[0]++;
     int cumm_sum = 0, count  = 0;
